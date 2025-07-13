@@ -1,0 +1,197 @@
+.bdy{
+    background-color: rgba(224, 222, 222, 0.721);
+}
+
+.navmod{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navmod a{
+  text-decoration: none;
+  margin-top: 15px;
+  border:solid rgb(202, 200, 195);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 15px; 
+}
+
+.navmod a span{
+    color: black;
+    padding: 35px;
+}
+
+.banner{
+    background-image: url(images/bannerBG.jpeg);
+    height:100%;
+    text-align: center;
+}
+
+
+.banner-img img{
+    width: 10%;
+}
+
+.banner-text{
+    height: 220px;
+}
+.banner-text p{
+    opacity: 0.70;
+}
+.btnContact{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.banner-text a span{
+    color: white;
+    padding: 40px;
+    /* margin: 20px; */
+}
+.middlePart{
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.middlePart hr{
+    width: 50%;
+}
+
+.containt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    /* text-wrap: wrap; */
+    /* flex-wrap: wrap; */
+}
+.containt img{
+    width: 150px;
+}
+
+.containt2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding: 25px;
+    
+}
+
+.containt2 img{
+    width: 150px;
+   
+}
+.mainContaint{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1 h1{
+    height: 100%;
+}
+.p2{
+      display: flex;
+    flex-wrap: wrap;
+}
+.btn1{
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 0.60;
+    color: black;
+}
+.inspire{
+    text-align: center;
+}
+.inspire h1,p{
+    margin-top: 55px;
+}
+
+.video1{
+    width: 1000px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.ct{
+    text-align: center;
+    margin-top: 75px;
+}
+.ct p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.cardItem{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 35px;
+    gap: 50px;
+    text-align: center;
+
+}
+.cardItem p{
+    margin-top: 10px;
+}
+.cardItem a{
+    color: black;
+}
+#card1{
+    padding: 30px;
+    background-color:rgba(195, 213, 249, 0.812);
+    border-radius: 15px;
+}
+#card2{
+     padding: 30px;
+    background-color: rgba(227, 175, 164, 0.8);
+    border-radius: 15px;
+}
+#card3{
+     padding: 30px;
+    background-color: #c7c297d4;
+    border-radius: 15px;
+}
+.bannerLast{
+    background-image: url(images/istockphoto-1190905567-1024x1024.jpg);
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 65px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.bannerLast h2{
+    font-size: xx-large;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.input input{
+    width: 50%;
+    margin-right: 25px;
+}
+.input input,button{
+    padding: 15px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    margin-top: 25px;
+    padding: 5px;
+    background-color: bisque;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.footerLogo a{
+    gap: 12px;
+}
