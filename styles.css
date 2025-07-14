@@ -9,17 +9,15 @@
 
 .navmod a{
   text-decoration: none;
-  margin-top: 15px;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
   border:solid rgb(202, 200, 195);
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 15px; 
 }
 
-.navmod a span{
-    color: black;
-    padding: 35px;
-}
 
 .banner{
     background-image: url(images/bannerBG.jpeg);
@@ -33,7 +31,8 @@
 }
 
 .banner-text{
-    height: 220px;
+    /* height: 220px; */
+    padding: 30px;
 }
 .banner-text p{
     opacity: 0.70;
@@ -41,12 +40,6 @@
 .btnContact{
     background-color: black;
     color: aliceblue;
-    padding: 10px;
-}
-.banner-text a span{
-    color: white;
-    padding: 40px;
-    /* margin: 20px; */
 }
 .middlePart{
     text-align: center;
@@ -162,7 +155,7 @@
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
-    padding: 65px;
+    padding: 40px;
     margin-top: 30px;
     border-radius: 15px;
 }
@@ -174,10 +167,7 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
-}
-.input input{
-    width: 50%;
-    margin-right: 25px;
+    gap: 5px;
 }
 .input input,button{
     padding: 15px;
@@ -194,4 +184,66 @@
 }
 .footerLogo a{
     gap: 12px;
+}
+
+
+@media (max-width: 576px){
+    .banner-img img{
+        width: 100% ;
+    }
+    .mainContaint{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containt2, .containt{
+        display: grid;
+        width: auto;
+    }
+    .containt2 h1{
+        font-size: 2vh;
+    }
+    .containt2 p{
+        font-size: 1.5vh;
+        margin-top: 10px;
+    }
+    .containt2 img{
+        width: 100%;
+    }
+    .containt img{
+        width: 100%;
+    }
+    .containt h1{
+        font-size: 2vh;
+    }
+     .containt p{
+        font-size: 1.5vh;
+        margin-top: 10px;
+    }
+    .video1{
+        width: 100%;
+        height: auto;
+    }
+    .cardItem{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bannerLast{
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+    }
+    .bannerLast>.input{
+        display: grid;
+        margin-right: 0px;
+        padding: 0px;
+        gap: 5px;
+    }
+    .footer{
+        display: grid;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
 }
